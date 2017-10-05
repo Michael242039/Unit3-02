@@ -1,0 +1,72 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 19}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "enter guess here",
+          "font_size" : 17,
+          "frame" : "{{60, 224}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "AAA02BE0-E530-4F8C-B781-38844A615835",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "user_guess_input",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 59}, {200, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_answer_button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Check Answer!",
+          "uuid" : "CE410465-A1F2-4DB4-9983-34AB10DFF62F",
+          "class" : "Button",
+          "name" : "check_answer_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 99}, {267, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "EB7CA024-99A8-4BE6-A5BB-E5A92B2B943E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "output_text",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Unit3-01",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
